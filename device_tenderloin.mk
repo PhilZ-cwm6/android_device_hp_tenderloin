@@ -183,6 +183,10 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     librs_jni
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    device/hp/tenderloin/recovery/sbin/ts_srv:recovery/root/sbin/ts_srv
+
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 

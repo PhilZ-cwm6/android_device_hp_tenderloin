@@ -98,6 +98,7 @@ TARGET_RECOVERY_FSTAB = device/hp/tenderloin/recovery/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_RECOVERY_SWIPE := true
 
 # partition sizes
 TARGET_USERIMAGES_USE_EXT4 := true
